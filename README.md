@@ -135,8 +135,7 @@ Para realização de commits na Branch <i>"MASTER"</i>, deverão ser autorizados
 
 Inicialmente o desenvolvedor deve fazer uma cópia da Branch Master. Então as altarações devem ser feitas em cima desta cópia da linha 
 Master, em seu repositório local. Após realizar suas alterações, ele deve efetuar o commit para a linha de revisão, onde sua alterção 
-será submetida a uma revisão. Esta revisão decidirá se essa nova alteração irá para linha Master ou será implementada somente na Linha
-Beta.
+será submetida a uma revisão. Esta revisão decidirá se essa nova alteração irá para linha Master.
 
 ## Branches
 
