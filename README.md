@@ -9,16 +9,16 @@ Este repositório tem como objetivo armazenar o trabalho da cadeira de "Gerênci
 Neste trabalho, será desenvolido um glossário sobre verbertes relacionados a cadeira, como por exemplo, CMMI e MPS-BR. Além de ter o intuito de ser aplicado de forma colaborativa, o desenvolvimento das atividades.
 
 ## Ferramentas
-Para este projeto serão utilizadas as seguinte ferramentas abaixo:
+Para este projeto serão utilizadas as seguintes ferramentas abaixo:
 <table>
 	 <tr>
 		 <td>Ferramenta</td> 
 		 <td>Descrição</td>
-		 <td>Observarções</td>
+		 <td>Observações</td>
 	</tr>
 	<tr>
 		<td>CSS </td>
-		<td><b>CSS</b> é a sigla para o termo em inglês Cascading Style Sheets, que traduzido para o português significa Folha de Estilo em Cascatas. O <b>CSS</b> é fácil de aprender e entender e é facilmente utilizado com as linguagens de marcação HTML ou XHTML</td> 
+		<td><b>CSS</b> é a sigla para o termo em inglês Cascading Style Sheets, que traduzido para o português significa Folha de Estilo em Cascatas. O <b>CSS</b> é fácil de aprender, entender e é facilmente utilizado com as linguagens de marcação HTML ou XHTML</td> 
 		<td>Não será utilizado nenhum tipo de framework</td>
 	</tr>
 	<tr>
@@ -33,16 +33,16 @@ Para este projeto serão utilizadas as seguinte ferramentas abaixo:
 	</tr>
 	<tr>
 	<td>GitDesktop</td>
-	<td>O GitDestkop é um programa responsável por realizar comandos para commitar os códigos, criar branch, excluir informações entre outros. Porém sua vantagem é que tu realizado por um interface gráfica, o que otimiza a vida do desenvolvedor, já que não precisa decorar os comandos no terminal, por exemplo. </td>
+	<td>O GitDestkop é um programa responsável por realizar comandos para commitar os códigos, criar branchs, excluir informações entre outros. Porém sua vantagem é que tudo é realizado por uma interface gráfica, que aumenta a produtividade do desenvolvedor, já que não precisa decorar os comandos do terminal. </td>
 	<td> Sem observações no momento.</td>
 	</tr>
 </table>
 
 ## Pré-requisitos
-- Ter um navegador com compatibilidade com HTML5. (Preferência pelo navegador Google Chrome).
+- Ter um navegador com compatibilidade com HTML5. (Preferência pelo navegador Google Chrome, em versões mais recentes).
 
 ## Estrutura de pastas
-A estrutura do projeto é composta pela seguintes pastas abaixo:
+A estrutura do projeto é composta pelas seguintes pastas abaixo:
 <table>
 	<tr>
 		<td><b>Pasta</b></td>
@@ -82,7 +82,7 @@ Os autores listados abaixo são todos alunos da Instituição Unisinos - São Le
 		<td>Desenvolvedor</td>
 	</tr>
 	<tr>
-		<td>Rodrigo Muller</td>
+		<td>Rodrigo Müller</td>
 		<td>Desenvolvedor</td>
 	</tr>
 </table>
@@ -141,6 +141,6 @@ Beta.
 ## Branches
 
 Sobre as branches
-- <b> Master:</b> Está branch só terá arquivos estáveis, conforme validações encontradas na "Politica de Gerência de configuração".
+- <b> Master:</b> Está branch só terá arquivos estáveis, conforme validações encontradas na "Política de Gerência de configuração".
 
 - <b>Revision:</b> Tem como objetivo, armazenar os arquivos que foram desenvolvidos, mas ainda não validados pelo colaboradores.
