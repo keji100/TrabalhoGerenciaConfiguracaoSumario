@@ -4,7 +4,7 @@
 
 ## Objetivo
 Este repositório tem como objetivo armazenar o trabalho da cadeira de "Gerência da Configuração de Software" da UNISINOS 2º Semestre/2018.
-Neste trabalho, será desenvolido um glossário sobre verbertes relacionados a cadeira, como por exemplo, CMMI e MPS-BR. Além de ter o intuito de ser aplicado de forma colaborativa, o desenvolvimento das atividades.
+Neste trabalho, será desenvolido um glossário sobre verbertes relacionados a cadeira, como por exemplo, CMMI e MPS-BR. Além de ter o intuito de ser aplicado de formasdgasdgasa colaborativa, o desenvolvimento das atividades.
 
 ## Ferramentas
 Para este projeto serão utilizadas as seguinte ferramentas abaixo:
