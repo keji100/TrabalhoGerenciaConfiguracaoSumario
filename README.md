@@ -143,4 +143,4 @@ Beta.
 Sobre as branches
 - <b> Master:</b> Está branch só terá arquivos estáveis, conforme validações encontradas na "Politica de Gerência de configuração".
 
-- <b>Revision:</b> Tem como objetivo, armazenar os arquivos que estão em foram desenvolvidos, mas ainda não validados pelo colaboradores.
+- <b>Revision:</b> Tem como objetivo, armazenar os arquivos que foram desenvolvidos, mas ainda não validados pelo colaboradores.
