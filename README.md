@@ -131,6 +131,13 @@ git clone https://github.com/keji100/TrabalhoGerenciaConfiguracaoSumario.git
 ## Politica de Gerência de configuração
 Para realização de commits na Branch <i>"MASTER"</i>, deverão ser autorizados pelo Gerente  de configuração. Com isso, somente o Gerente de configuração terá autorização de commitar os arquivos como autorizar. 
 
+### Efetuando uma alteração
+
+Inicialmente o desenvolvedor deve fazer uma cópia da Branch Master. Então as altarações devem ser feitas em cima desta cópia da linha 
+Master, em seu repositório local. Após realizar suas alterações, ele deve efetuar o commit para a linha de revisão, onde sua alterção 
+será submetida a uma revisão. Esta revisão decidirá se essa nova alteração irá para linha Master ou será implementada somente na Linha
+Beta.
+
 ## Branches
 
 Sobre as branches
