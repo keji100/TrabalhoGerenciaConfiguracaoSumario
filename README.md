@@ -1,13 +1,25 @@
 
 
+
 # Glossário de Gerência de Configuração
 
 <img src="https://upload.wikimedia.org/wikipedia/pt/9/91/Lp_logo_unisinos.png" />
 
 ## Objetivo
 Este repositório tem como objetivo armazenar o trabalho da cadeira de "Gerência da Configuração de Software" da UNISINOS 2º Semestre/2018.
-Neste trabalho, será desenvolido um glossário sobre verbertes relacionados a cadeira, como por exemplo, CMMI e MPS-BR. Além de ter o intuito de ser aplicado de forma colaborativa, o desenvolvimento das atividades.
-
+Neste trabalho, será desenvolvido um glossário sobre verbertes relacionados a cadeira, como por exemplo, CMMI, IEEE, RUP e MPS-BR. Além do desenvolvimento das atividades ser feito de forma colaborativa pelos integrantes do grupo.
+Os verbetes que serão descritos nesse projeto são:
+-	<b>Status da configuração</b>
+-	<b>	Controle de modificadores</b>
+-	<b>Controle de modificadores</b>
+-	<b>Grupo/Comitê de Controle de Configuração</b>
+-	<b>Release</b>
+-	<b>Versão</b>
+-	<b>Branch/Ramo</b>
+-	<b>Processo de Software</b>
+-	<b>Qualidade de Software</b>
+-	<b>Auditoria funcinal da Configuração</b>
+-	<b>Acoplamento</b>
 ## Ferramentas
 Para este projeto serão utilizadas as seguintes ferramentas abaixo:
 <table>
