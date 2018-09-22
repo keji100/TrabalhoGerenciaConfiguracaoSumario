@@ -6,7 +6,6 @@
 Este repositório tem como objetivo armazenar o trabalho da cadeira de "Gerência da Configuração de Software" da UNISINOS 2º Semestre/2018.
 Neste trabalho, será desenvolido um glossário sobre verbertes relacionados a cadeira, como por exemplo, CMMI e MPS-BR. Além de ter o intuito de ser aplicado de formasdgasdgasa colaborativa, o desenvolvimento das atividades.
 
-=======
 Neste trabalho, será desenvolvido um glossário sobre verbertes relacionados a cadeira, como por exemplo, CMMI, IEEE, RUP e MPS-BR. Além do desenvolvimento das atividades ser feito de forma colaborativa pelos integrantes do grupo.
 Os verbetes que serão descritos nesse projeto são:
 -	<b>Status da configuração</b>
@@ -20,11 +19,8 @@ Os verbetes que serão descritos nesse projeto são:
 -	<b>Qualidade de Software</b>
 -	<b>Auditoria funcinal da Configuração</b>
 -	<b>Acoplamento</b>
+
 ## Ferramentas
-Para este projeto serão utilizadas as seguinte ferramentas abaixo:
-- HTML 
-- CSS (Sem nenhum tipo de framework)
-- JS (JQuery)
 Para este projeto serão utilizadas as seguintes ferramentas abaixo:
 <table>
 	 <tr>
@@ -56,13 +52,14 @@ Para este projeto serão utilizadas as seguintes ferramentas abaixo:
 
 ## Pré-requisitos
 - Ter um navegador com compatibilidade com HTML5. (Preferência pelo navegador Google Chrome).
-- Ter um navegador com compatibilidade com HTML5. (Preferência pelo navegador Google Chrome, em versões mais recentes).
+
 
 ## Estrutura
 A estrutura do projeto é composta pela seguintes pastas abaixo:
 - CSS: Pasta para armazenamento de arquivos de estilos
 - IMG: Pasta para armazenamento de imagens do projeto
 - JS: Pasta para armazenamento de arquivos JavaScript
+
 ## Estrutura de pastas
 A estrutura do projeto é composta pelas seguintes pastas abaixo:
 <table>
@@ -109,10 +106,6 @@ Os autores listados abaixo são todos alunos da Instituição Unisinos - São Le
 	</tr>
 </table>
 
-- Willian Keji (Gerente de configuração e desenvolvedor)
-- Emmanoel Ferreira (Desenvolvedor)
-- Iago Slim (Desenvolvedor)
-- Rodrigo Muller (Desenvolvedor)
 ## Funcionalidade por função
 As funcionalidades serão limitadas por tipo de função para maior controle de alterações, conforme a tabela abaixo.
 
@@ -157,6 +150,7 @@ git clone https://github.com/keji100/TrabalhoGerenciaConfiguracaoSumario.git
 ## Licença
 <p>A licença optada para este projeto seria do tipo MIT.</p> 
 <p>Para mais informações, <a href="http://escolhaumalicenca.com.br/">Clique neste link</a></p>
+
 ## Politica de Gerência de configuração
 Para realização de commits na Branch <i>"MASTER"</i>, deverão ser autorizados pelo Gerente  de configuração. Com isso, somente o Gerente de configuração terá autorização de commitar os arquivos como autorizar. 
 
