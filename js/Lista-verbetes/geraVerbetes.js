@@ -38,6 +38,9 @@ let MPSBR_Versao = `
 let MPSBR_Branch = `
 <p>É a definição de uma estratégia que permita desenvolvimento em paralelo sobre uma base única de programas fontes.</p>`;
 
+let MPSBR_ProcessoDeSoftware = `
+<p>O MPS.BR, Melhoria do Processo de Software Brasileiro, é um programa da Softex com apoio do Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC). Com inicio em dezembro de 2003, o programa tem como objetivo melhorar a capacidade de desenvolvimento de software, serviços e as práticas de gestão de RH na indústria de TIC.</p>`
+
 //==============================================================================================
 
 //==================================== Funções dos Verbetes ====================================
@@ -48,5 +51,6 @@ $(document).ready(function(){
     $("#MPSBR_Release").html(MPSBR_Release);
     $("#MPSBR_Versao").html(MPSBR_Versao);
     $("#MPSBR_Branch").html(MPSBR_Branch);
+    $("#MPSBR_ProcessoDeSoftware").html(MPSBR_ProcessoDeSoftware);
 })
 //==============================================================================================
