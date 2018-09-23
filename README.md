@@ -219,7 +219,7 @@ O cartão pode conter os seguintes status ou seções abaixo:
 - Em andamento: A tarefa em questão está em desenvolvimento por algum colaborador.
 - Em revisão: A tarefa deverá ser validada por integrante.
 - Ajustado: Quando encontrado um problema, ela deverá ficar nesse status.
-- Problema Encotrado: Quando encontrado um problema e deverá ser revisada pelo desenvolvedor. Caso não seja de grande impacto, pode ser ajustada pelo próprio colaborador que encontrou o problema.
+- Problema Encotrado: Quando encontrado um problema deverá ser revisado pelo desenvolvedor. Caso não seja de grande impacto, pode ser ajustada pelo próprio colaborador que encontrou o problema.
 - Pronto para Branch Master: A tarefa fica na branch revision, pronta para ser subida para Master.
 - Em Branch Master: A tarefa já foi finalizada e se encontra na Branch Master
 	
@@ -269,6 +269,10 @@ A estrutura do projeto é composta pelas seguintes pastas abaixo:
 	<tr>
 		<td>JS</td>
 		<td>Pasta para armazenamento de arquivos JavaScript</td>
+	</tr>
+		<tr>
+		<td>Referencial teórico</td>
+		<td>Pasta para de links e arquivos usados na pesquisa dos assuntos</td>
 	</tr>
 </table>
 
@@ -369,3 +373,4 @@ Sobre as branches
 - <b> Master:</b> Está branch só terá arquivos estáveis, conforme validações encontradas na "Política de Gerência de configuração".
 
 - <b>Revision:</b> Tem como objetivo, armazenar os arquivos que foram desenvolvidos, mas ainda não validados pelo colaboradores.
+
