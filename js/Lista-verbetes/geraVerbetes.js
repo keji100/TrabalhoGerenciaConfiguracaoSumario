@@ -25,6 +25,16 @@ let MPSBR_Release = `
 <p>É necessário, ainda, estabelecer um controle para a liberação de <em>baseline</em> aos interessados e autorizados contendo tanto versões para a produção quanto produtos de trabalho fechados, incluindo o empacotamento e a entrega.</p>
 <p>A liberação de <em>baselines</em> contendo versões para a produção ocorre o quanto antes, de forma a minimizar o retrabalho necessário para adaptar as modificações ao restante do software. Idealmente, essas liberações ocorrem de forma incremental e contínua, visando aumentar a transparência do processo Gerência de Configuração como um todo. Por exemplo, após uma solicitação de modificação, o solicitante passa a ser um interessado direto na liberação futura do software.</p>`;
 
+let MPSBR_Versao = `
+<p>Em geral, os itens de configuração são projetados, implementados e testados independentemente, são identificados unicamente pelo seu nome e a sua MPS.BR – Guia de Implementação de Software – Parte 2:2016 24/66 numeração de versão retrata seu posicionamento na hierarquia e os documentos ou parte de documentos que descrevem o item de configuração fazem parte do item.</p>
+<p>Para cada item de configuração, identificado no plano de Gerência de Configuração, são usualmente definidos:</p>
+<ul>
+    <li>um identificador único</li>
+    <li>o nível de controle pretendido, por exemplo, apenas armazenar no repositório, também controlar a versão e ainda incluir em <em>baseline</em></li>
+    <li>o momento de se aplicar este controle</li>
+    <li>um responsável</li>
+</ul>`
+
 let MPSBR_Branch = `
 <p>É a definição de uma estratégia que permita desenvolvimento em paralelo sobre uma base única de programas fontes.</p>`;
 
@@ -36,6 +46,7 @@ $(document).ready(function(){
     $("#MPSBR_ControleModificadores").html(MPSBR_ControleModificadores);
     $("#MPSBR_GrupoDeControleDeConfiguracao").html(MPSBR_GrupoDeControleDeConfiguracao);
     $("#MPSBR_Release").html(MPSBR_Release);
+    $("#MPSBR_Versao").html(MPSBR_Versao);
     $("#MPSBR_Branch").html(MPSBR_Branch);
 })
 //==============================================================================================
