@@ -9,10 +9,10 @@ body{
 }
 
 header {
-    background-color: #262D63;
     position: fixed;
     width: 100%;
     z-index: 100;
+    background-image: url('../../img/Geral/header.png');
 }
 
 header #logo {
@@ -23,7 +23,7 @@ header #logo {
 }
 
 .background-img{
-    background-image: url(../img/img.png);
+    background-image: url(../../img/Geral/img.png);
     background-repeat: no-repeat;
 }
 
@@ -38,7 +38,6 @@ header #logo {
 }
 
 #nav-bar {
-    background-color:#262D63;
     height: 78px;
 }
 
@@ -63,7 +62,16 @@ header #logo {
 }
 
 #nav-bar li a:hover{
-    background-color: #2F387B;
+    font-weight: bold;
+    background: #262D63;
+    opacity: 0.8;
+}
+
+#nav-bar li a:hover #op1{
+    font-weight: bold;
+    opacity: none;
+    color:black;
+  
 }
 
 .container{
