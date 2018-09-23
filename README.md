@@ -209,31 +209,6 @@ Como este projeto só vai utilizar arquivo relacionado ao código a nomeclatura 
 	Nome-do-Arquivo.formatoArquivo
 
 Os espaços deverão ser considerado o sinal de '-'.
-
-Para tipos especificos deverão ser adotados este padrões abaixo:
-
-<table>
-		<tr>
-			<td>Tipo</td>
-			<td>Descrição</td>
-			<td>Nomeclatura</td>
-		</tr>
-		<tr>
-			<td>.JS</td>
-			<td>Arquivos Javascript ou Jquery</td>
-			<td>View_nome-do-arquivo.js (Caso seja algo especifico)<br>Geral_nome-do-arquivo.js</td>
-		</tr>
-		<tr>
-			<td>IMG</td>
-			<td>Imagens JPG</td>
-			<td>View_nome-do-arquivo.jpg</td>
-		</tr>
-		<tr>
-			<td>CSS</td>
-			<td>Arquivos CSS</td>
-			<td>View_nome-do-arquivo.jpg</td>
-		</tr>
-</table>
 	
 ## Gestão de Mudança
 Para gerenciamento das mudanças, utilizaremos o Trello para registro.	
@@ -295,6 +270,22 @@ A estrutura do projeto é composta pelas seguintes pastas abaixo:
 		<td>JS</td>
 		<td>Pasta para armazenamento de arquivos JavaScript</td>
 	</tr>
+</table>
+
+Dentro das pastas deverão ser criadas a seguinte estrutura
+<table>
+		<tr>
+			<td>Pasta</td>
+			<td>Descrição</td>
+		</tr>
+		<tr>
+			<td>Geral</td>
+			<td>Está pasta deverão ser colocados arquivo que serão usado em mais de um view</td>
+		</tr>
+		<tr>
+			<td>View</td>
+			<td>Está pasta deverão ser colocados apenas arquivos correspondente a uma view.</td>
+		</tr>
 </table>
 
 ## Autores
