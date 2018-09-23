@@ -21,6 +21,10 @@ let MPSBR_ControleModificadores = `
 let MPSBR_GrupoDeControleDeConfiguracao = `
 <p>Grupo de pessoas responsável por avaliar e aprovar ou rejeitar modificações propostas em itens de configuração, e certificar que as modificações aprovadas foram implementadas.</p>`;
 
+let MPSBR_Release = `
+<p>É necessário, ainda, estabelecer um controle para a liberação de <em>baseline</em> aos interessados e autorizados contendo tanto versões para a produção quanto produtos de trabalho fechados, incluindo o empacotamento e a entrega.</p>
+<p>A liberação de <em>baselines</em> contendo versões para a produção ocorre o quanto antes, de forma a minimizar o retrabalho necessário para adaptar as modificações ao restante do software. Idealmente, essas liberações ocorrem de forma incremental e contínua, visando aumentar a transparência do processo Gerência de Configuração como um todo. Por exemplo, após uma solicitação de modificação, o solicitante passa a ser um interessado direto na liberação futura do software.</p>`;
+
 let MPSBR_Branch = `
 <p>É a definição de uma estratégia que permita desenvolvimento em paralelo sobre uma base única de programas fontes.</p>`;
 
@@ -31,6 +35,7 @@ $(document).ready(function(){
     $("#CMMI_ControleModificadores").html(CCMMI_ControleModificadores);
     $("#MPSBR_ControleModificadores").html(MPSBR_ControleModificadores);
     $("#MPSBR_GrupoDeControleDeConfiguracao").html(MPSBR_GrupoDeControleDeConfiguracao);
+    $("#MPSBR_Release").html(MPSBR_Release);
     $("#MPSBR_Branch").html(MPSBR_Branch);
 })
 //==============================================================================================
