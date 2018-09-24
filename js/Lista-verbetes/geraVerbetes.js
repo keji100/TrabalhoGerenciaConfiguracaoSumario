@@ -39,7 +39,10 @@ let MPSBR_Branch = `
 <p>É a definição de uma estratégia que permita desenvolvimento em paralelo sobre uma base única de programas fontes.</p>`;
 
 let MPSBR_ProcessoDeSoftware = `
-<p>O MPS.BR, Melhoria do Processo de Software Brasileiro, é um programa da Softex com apoio do Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC). Com inicio em dezembro de 2003, o programa tem como objetivo melhorar a capacidade de desenvolvimento de software, serviços e as práticas de gestão de RH na indústria de TIC.</p>`
+<p>O MPS.BR, Melhoria do Processo de Software Brasileiro, é um programa da Softex com apoio do Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC). Com inicio em dezembro de 2003, o programa tem como objetivo melhorar a capacidade de desenvolvimento de software, serviços e as práticas de gestão de RH na indústria de TIC.</p>`;
+
+let MPSBR_QualidadeDeSoftware = `
+<p>O programa MPS.BR conta com uma Unidade de Execução do Programa (UEP) e duas estruturas de apoio para a execução de suas atividades, o Fórum de Credenciamento e Controle (FCC) e a Equipe Técnica do Modelo (ETM). Por meio destas estruturas, o MPS.BR pode contar com a participação de representantes de universidades, instituições governamentais, centros de pesquisa e de organizações privadas, os quais contribuem com suas visões complementares que agregam valor e qualidade ao programa. </p>`;
 
 //==============================================================================================
 
@@ -52,5 +55,6 @@ $(document).ready(function(){
     $("#MPSBR_Versao").html(MPSBR_Versao);
     $("#MPSBR_Branch").html(MPSBR_Branch);
     $("#MPSBR_ProcessoDeSoftware").html(MPSBR_ProcessoDeSoftware);
+    $("#MPSBR_QualidadeDeSoftware").html(MPSBR_QualidadeDeSoftware);
 })
 //==============================================================================================
