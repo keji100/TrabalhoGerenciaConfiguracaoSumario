@@ -44,6 +44,9 @@ let MPSBR_ProcessoDeSoftware = `
 let MPSBR_QualidadeDeSoftware = `
 <p>O programa MPS.BR conta com uma Unidade de Execução do Programa (UEP) e duas estruturas de apoio para a execução de suas atividades, o Fórum de Credenciamento e Controle (FCC) e a Equipe Técnica do Modelo (ETM). Por meio destas estruturas, o MPS.BR pode contar com a participação de representantes de universidades, instituições governamentais, centros de pesquisa e de organizações privadas, os quais contribuem com suas visões complementares que agregam valor e qualidade ao programa. </p>`;
 
+let MPSBR_AuditoriaFuncionalDeConfig = `
+<p>Abrange a revisão dos planos, dados, metodologia e resultados dos testes, assegurando que a release cumpra corretamente o que foi especificado.</p>`
+
 //==============================================================================================
 
 //==================================== Funções dos Verbetes ====================================
@@ -56,5 +59,6 @@ $(document).ready(function(){
     $("#MPSBR_Branch").html(MPSBR_Branch);
     $("#MPSBR_ProcessoDeSoftware").html(MPSBR_ProcessoDeSoftware);
     $("#MPSBR_QualidadeDeSoftware").html(MPSBR_QualidadeDeSoftware);
+    $("#MPSBR_AuditoriaFuncionalDeConfig").html(MPSBR_AuditoriaFuncionalDeConfig);
 })
 //==============================================================================================
