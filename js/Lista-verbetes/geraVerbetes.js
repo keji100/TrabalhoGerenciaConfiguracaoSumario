@@ -2,28 +2,46 @@
 //===================================== Texto dos Verbetes =====================================
 let CCMMI_ControleModificadores = `
 <p>
-    <i>O propósito do Monitoramento e Controle do Projeto (PMC)
+    O propósito do Monitoramento e Controle do Projeto (PMC)
     (CMMI-DEV) é fornecer uma compreensão do progresso do
     projeto para que ações corretivas apropriadas possam ser 
     tomadas quando o desempenho do
-    projeto se desviar significativamente do plano.</i>
+    projeto se desviar significativamente do plano.
 </p>
 <p>
-    <i>Os produtos adquiridos podem precisar ser colocados sob o 
+    Os produtos adquiridos podem precisar ser colocados sob o 
     gerenciamento de configuração pelo fornecedor e pelo projeto. 
     As provisões para a condução do gerenciamento de configuração devem ser estabelecidas em contratos com fornecedores.
-    Métodos para assegurar que os dados estejam completos e consistentes devem ser estabelecidos e mantidos.</i>
+    Métodos para assegurar que os dados estejam completos e consistentes devem ser estabelecidos e mantidos.
 </p>`;
 
 let CMMI_GrupoDeControleDeConfiguracao = `
 <p>
-    <i>Obtenha autorização apropriada antes de alterar os itens de configuração
-    são inseridos no sistema de gerenciamento de configuração.</i>
+    Obtenha autorização apropriada antes de alterar os itens de configuração
+    são inseridos no sistema de gerenciamento de configuração.
 </p>
 <p>
-    <i>Por exemplo, a autorização pode vir do CCB, do gerente de projeto, do produto
-    proprietário ou o cliente.</i>  
+    Por exemplo, a autorização pode vir do CCB, do gerente de projeto, do produto
+    proprietário ou o cliente. 
 </p>`;
+
+let CMMI_QualidadeDeSoftware = `
+<p>
+    O SEI (Desenvolvedora do CMMI - Software Engineering Institute) adotou a premissa do gerenciamento de processos, “a qualidade de um
+    sistema ou produto é altamente influenciado pela qualidade do processo usado para
+    desenvolvê-lo e mantê-lo ”, e definiu CMMs que incorporam essa premissa.
+</p>
+`
+
+let CMMI_ProcessoDeSoftware = `
+<p>
+    Para engenharia de software, o projeto detalhado é focado em produtos de software
+    e desenvolvimento de componentes. A estrutura interna dos componentes do produto é
+    definida, esquemas de dados são gerados, algoritmos são desenvolvidos e
+    heurísticas são estabelecidas para fornecer recursos de componentes do produto com o intuito
+    satisfazer os requisitos atribuídos.
+</p>
+`
 
 let MPSBR_ControleModificadores = `
 <p>Tem função de executar a função de controle da configuração de forma sistemática, armazenando todas as informações geradas durante o andamento das solicitações de modificação e relatando essas informações aos envolvidos, assim como estabelecido pela função de contabilização da situação da configuração.</p>`;
@@ -62,6 +80,8 @@ let MPSBR_AuditoriaFuncionalDeConfig = `
 $(document).ready(function(){
     $("#CMMI_ControleModificadores").html(CCMMI_ControleModificadores);
     $("#CMMI_GrupoDeControleDeConfiguracao").html(CMMI_GrupoDeControleDeConfiguracao);
+    $("#CMMI_ProcessoDeSoftware").html(CMMI_ProcessoDeSoftware);
+    $("#CMMI_QualidadeDeSoftware").html(CMMI_QualidadeDeSoftware);
     $("#MPSBR_ControleModificadores").html(MPSBR_ControleModificadores);
     $("#MPSBR_GrupoDeControleDeConfiguracao").html(MPSBR_GrupoDeControleDeConfiguracao);
     $("#MPSBR_Release").html(MPSBR_Release);
