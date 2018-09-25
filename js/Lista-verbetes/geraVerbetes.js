@@ -74,6 +74,11 @@ let MPSBR_QualidadeDeSoftware = `
 
 let MPSBR_AuditoriaFuncionalDeConfig = `
 <p>Abrange a revisão dos planos, dados, metodologia e resultados dos testes, assegurando que a release cumpra corretamente o que foi especificado.</p>`
+
+let RUP_QualidadeDeSoftware = `
+<p>O Rup atribui a responsabilidade de controlar a qualidade do produto a todos os envolvimentos, sejam os desenvolvedores bem como seus gestores e responsáveis pela gerência de configruação do projeto. </p>`;
+
+
 //==============================================================================================
 
 //==================================== Funções dos Verbetes ====================================
@@ -90,5 +95,6 @@ $(document).ready(function(){
     $("#MPSBR_ProcessoDeSoftware").html(MPSBR_ProcessoDeSoftware);
     $("#MPSBR_QualidadeDeSoftware").html(MPSBR_QualidadeDeSoftware);
     $("#MPSBR_AuditoriaFuncionalDeConfig").html(MPSBR_AuditoriaFuncionalDeConfig);
+    $("#RUP_QualidadeDeSoftware").html(RUP_QualidadeDeSoftware);
 })
 //==============================================================================================
