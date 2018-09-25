@@ -1,3 +1,21 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @iagoslim Sign out
+1
+0 2 keji100/TrabalhoGerenciaConfiguracaoSumario
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+TrabalhoGerenciaConfiguracaoSumario/js/Lista-verbetes/geraVerbetes.js
+3769234  6 minutes ago
+@iagoslim iagoslim Atualização de verbete
+@emmanoelf @keji100 @iagoslim
+     
+101 lines (84 sloc)  6.68 KB
 
 //===================================== Texto dos Verbetes =====================================
 let CCMMI_ControleModificadores = `
@@ -74,6 +92,11 @@ let MPSBR_QualidadeDeSoftware = `
 
 let MPSBR_AuditoriaFuncionalDeConfig = `
 <p>Abrange a revisão dos planos, dados, metodologia e resultados dos testes, assegurando que a release cumpra corretamente o que foi especificado.</p>`
+
+let RUP_QualidadeDeSoftware = `
+<p>O Rup atribui a responsabilidade de controlar a qualidade do produto a todos os envolvimentos, sejam os desenvolvedores bem como seus gestores e responsáveis pela gerência de configruação do projeto. </p>`;
+
+
 //==============================================================================================
 
 //==================================== Funções dos Verbetes ====================================
@@ -90,5 +113,19 @@ $(document).ready(function(){
     $("#MPSBR_ProcessoDeSoftware").html(MPSBR_ProcessoDeSoftware);
     $("#MPSBR_QualidadeDeSoftware").html(MPSBR_QualidadeDeSoftware);
     $("#MPSBR_AuditoriaFuncionalDeConfig").html(MPSBR_AuditoriaFuncionalDeConfig);
+    $("#RUP_QualidadeDeSoftware").html(RUP_QualidadeDeSoftware);
 })
 //==============================================================================================
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
