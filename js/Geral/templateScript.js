@@ -7,6 +7,11 @@ function carregarTemplate(){
                     <a class="background-img" id="logo" href="index.html"></a>\
                         <ul>\
                             <li>\
+                                <a href="index.html">\
+                                    <div id="op1">Home</div>\
+                                </a>\
+                            </li>\
+                            <li>\
                                 <a href="lista-verbetes.html">\
                                     <div id="op1">Lista de verbetes</div>\
                                 </a>\
