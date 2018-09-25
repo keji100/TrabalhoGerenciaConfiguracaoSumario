@@ -20,7 +20,6 @@ Os verbetes que serão descritos nesse projeto são:
 -	<b>Auditoria funcinal da Configuração</b>
 -	<b>Acoplamento</b>
 
-## Ferramentas
 ## Ferramentas, Ambiente e Infra-estrutura
 Para este projeto serão utilizadas as seguintes ferramentas abaixo:
 
